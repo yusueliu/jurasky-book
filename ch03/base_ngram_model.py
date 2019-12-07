@@ -12,7 +12,7 @@ class BaseNgramModel(object):
         """
         self.n = ngram_counter.n
         self.ngram_counter = ngram_counter
-        self.ngrams = ngram_counter.allgrams[ngram_counter.n]
+        self.ngrams = ngram_counter.ngrams
         self._check_against_vocab = self.ngram_counter.check_against_vocab
         
     def score(self, word, context):
