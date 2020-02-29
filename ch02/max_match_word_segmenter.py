@@ -12,8 +12,9 @@ class MaxMatchWordSegmenter:
 
     def segment_words(self, string):
         """
-        Segments a sentence into words using the max-match algorithm.  This will attempt to greedily find the largest
-        words in a sentence, starting at the beginning and moving left-to-right with the remaining string.
+        Segments a sentence into words using the max-match algorithm.  This will attempt to 
+        greedily find the largest words in a sentence, starting at the beginning 
+        and moving left-to-right with the remaining string.
         :param string: words without spaces separating them
         :return: list of words that are a word segmentation of the given string
         """
